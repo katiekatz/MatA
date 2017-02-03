@@ -42,14 +42,14 @@
                 <h4 class="col-xs-10 col-xs-offset-1 title-text">You can contact us through the form below, email us at example@email.com, or call us at 555-555-5555x0255.</h4>
             </row>
             <row>
-                <form class="contact-form col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" action="https://formspree.io/katkatz@bergen.org" method="post" enctype="text/plain">
-                    <input type="hidden" name="_next" value="./contact.html" />
+                <form class="contact-form col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" action="https://formspree.io/katkatz@bergen.org" method="post">
+                    <input type="hidden" name="_next" value="./contact.html"/>
                     <label>Name: </label>
-                    <input type="text" size="40" name="name">
+                    <input type="text" size="40" name="name" required>
                     <label>Email: </label>
-                    <input type="text" size="40" name="_replyto">
+                    <input type="text" size="40" name="_replyto" required>
                     <label>Message: </label>
-                    <textarea name="message"></textarea>
+                    <textarea name="message" required></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </row>
