@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,500,500i,700,700i,900,900i&subset=latin-ext');
+
+$color1: #1e315f;
+$color2: #f6b436;
+$color3: #09183c;
+
+$excolor4: #1e315f;
+$excolor5: #551133;
+$excolor6: #553311;
+
+$xsJumboSize: 1;
+$smJumboSize: 750px;
+$mdJumboSize: 3;
+$lgJumboSize: 4;
+
+html, body {
+  font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+}
+
+$bgDefault      : #09183c;
+$bgHighlight    : #1e315f;
+$colDefault     : #ffffff;
+$colHighlight   : #f6b436;
+$dropDown       : true;
+.navbar-default {
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colHighlight;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color: $colHighlight; }}
+      @if $dropDown {
+        > .dropdown-menu {
+          background-color: $bgDefault;
+          > li {
+            > a {
+              color: $colDefault;
+              &:hover,  &:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight; }}
+            > .divider {
+              background-color: $bgHighlight;}}}}}
+    @if $dropDown {
+      .open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $colHighlight;
+          background-color: $bgHighlight; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    background-color: $bgDefault;
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+
+nav {
+  background-color: $bgDefault;
+}
+
+.nav-container {
+  background-color: $bgDefault;
+}
+
+.title-text {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.navbar-btn {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+//use media screen to make background image jump size
+#mainJumbo {
+  height: 300px;
+  margin-top: 50px;
+  padding: 0;
+  background-image: url("../defaultBackground.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.btn-a {
+  margin: 0 !important;
+  padding: 0 !important;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,500,500i,700,700i,900,900i&subset=latin-ext");
+html, body {
+  font-family: 'Raleway', 'Helvetica Neue', sans-serif; }
+
+.navbar-default {
+  background-color: #09183c;
+  border-color: #1e315f; }
+  .navbar-default .navbar-brand {
+    color: #f6b436; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #f6b436; }
+  .navbar-default .navbar-text {
+    color: #ffffff; }
+  .navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #f6b436; }
+  .navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #09183c; }
+    .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+      color: #ffffff; }
+      .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+        color: #f6b436;
+        background-color: #1e315f; }
+    .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+      background-color: #1e315f; }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f6b436;
+    background-color: #1e315f; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f6b436;
+    background-color: #1e315f; }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #f6b436;
+    background-color: #1e315f; }
+  .navbar-default .navbar-toggle {
+    border-color: #1e315f; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #1e315f; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ffffff; }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    background-color: #09183c;
+    border-color: #ffffff; }
+  .navbar-default .navbar-link {
+    color: #ffffff; }
+    .navbar-default .navbar-link:hover {
+      color: #f6b436; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #f6b436; }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f6b436;
+    background-color: #1e315f; } }
+nav {
+  background-color: #09183c; }
+
+.nav-container {
+  background-color: #09183c; }
+
+.title-text {
+  text-align: center; }
+
+h1 {
+  font-weight: bold; }
+
+.navbar-btn {
+  margin-right: 8px;
+  margin-left: 8px; }
+
+#mainJumbo {
+  height: 300px;
+  margin-top: 50px;
+  padding: 0;
+  background-image: url("../defaultBackground.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.main {
+  margin-top: 50px; }
+
+.btn-a {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+/*# sourceMappingURL=main.css.map */

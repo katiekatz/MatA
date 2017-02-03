@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>MatA: Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="./ss/main.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid nav-container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Masterclass at the Academies</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Classes</a></li>
+                        <li><a href="#">Schedule</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><button type="button" class="btn btn-default navbar-btn">Register!</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid main">
+            <row>
+                <h1 class="col-xs-6 col-xs-offset-3 title-text">Contact Us</h1>
+            </row>
+            <row>
+                <h4 class="col-xs-10 col-xs-offset-1 title-text">You can contact us through the form below, email us at example@email.com, or call us at 555-555-5555x0255.</h4>
+            </row>
+            <row>
+                <form class="contact-form col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" action="https://formspree.io/katkatz@bergen.org" method="post" enctype="text/plain">
+                    <input type="hidden" name="_next" value="./contact.html" />
+                    <label>Name: </label>
+                    <input type="text" size="40" name="name">
+                    <label>Email: </label>
+                    <input type="text" size="40" name="_replyto">
+                    <label>Message: </label>
+                    <textarea name="message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </row>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+        <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
