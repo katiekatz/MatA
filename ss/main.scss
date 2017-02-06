@@ -173,7 +173,7 @@ form input, form textarea {
   height: 100%;
   z-index: 1;
   opacity: 0.6;
-  background-image: url('../defaultBackground.jpg');
+  background-image: url('../defaultBackground.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
   -ms-background-size: cover;
@@ -186,5 +186,14 @@ form input, form textarea {
 .index-main {
   h1, h2, h3, h4, h5, h6 {
     z-index: 2;
+    position: relative;
   }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row:first-child {
+  margin-top: -100px;
 }
