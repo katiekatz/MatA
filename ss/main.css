@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,500,500i,700,700i,900,900i&subset=latin-ext");
 html, body {
-  font-family: 'Raleway', 'Helvetica Neue', sans-serif; }
+  font-family: 'Raleway', 'Helvetica Neue', sans-serif;
+  height: 100%; }
 
 .navbar-default {
   background-color: #09183c;
@@ -62,6 +63,9 @@ nav {
 .nav-container {
   background-color: #09183c; }
 
+.main-title-text {
+  text-transform: uppercase; }
+
 .title-text {
   text-align: center; }
 
@@ -102,5 +106,37 @@ form input, form textarea {
 
 .panel {
   margin-top: 20px !important; }
+
+.panel-footer {
+  text-align: center; }
+
+.index-main {
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  height: inherit; }
+
+.index-main:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url("../defaultBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.index-main h1, .index-main h2, .index-main h3, .index-main h4, .index-main h5, .index-main h6 {
+  z-index: 2; }
 
 /*# sourceMappingURL=main.css.map */
