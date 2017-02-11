@@ -76,15 +76,6 @@ h1 {
   margin-right: 8px;
   margin-left: 8px; }
 
-#mainJumbo {
-  height: 300px;
-  margin-top: 50px;
-  padding: 0;
-  background-image: url("../defaultBackground.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 .main {
   margin-top: 50px; }
 
@@ -113,7 +104,6 @@ form input, form textarea {
 .index-main {
   position: relative;
   overflow: hidden;
-  background-color: black;
   color: white;
   height: inherit; }
 
@@ -127,7 +117,7 @@ form input, form textarea {
   height: 100%;
   z-index: 1;
   opacity: 0.6;
-  background-image: url("../defaultBackground.png");
+  background: black;
   background-repeat: no-repeat;
   background-position: 50% 0;
   -ms-background-size: cover;
@@ -171,7 +161,7 @@ form input, form textarea {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 10% auto;
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
@@ -226,5 +216,68 @@ form input, form textarea {
 
 .staff-row:last-child {
   margin-bottom: 0; }
+
+#cf {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto; }
+
+#cf img {
+  position: absolute;
+  width: inherit;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out; }
+
+#cf img {
+  -webkit-animation-name: cfFadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 18s; }
+
+@keyframes cfFadeInOut {
+  0% {
+    opacity: 1; }
+  28% {
+    opacity: 1; }
+  33% {
+    opacity: 0; }
+  94% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+#cf img:nth-of-type(1) {
+  animation-delay: 12s; }
+
+#cf img:nth-of-type(2) {
+  animation-delay: 6s; }
+
+#cf img:nth-of-type(3) {
+  animation-delay: 0s; }
+
+.container {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  overflow: hidden !important; }
+
+.container img {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  max-width: none !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  transform: translate(-50%, -50%) !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  -webkit-transform: translate(-50%, -50%) !important; }
 
 /*# sourceMappingURL=main.css.map */

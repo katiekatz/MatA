@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="30e3eb70-b6c2-49f8-b421-240332cd6c73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ss/main.scss" afterPath="$PROJECT_DIR$/ss/main.scss" />
     </list>
     <ignored path="MatA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -195,7 +194,7 @@
       <workItem from="1486420312108" duration="248000" />
       <workItem from="1486562912123" duration="9000" />
       <workItem from="1486782162909" duration="2000" />
-      <workItem from="1486782543802" duration="27000" />
+      <workItem from="1486782543802" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="form updated">
       <created>1486151306125</created>
@@ -225,11 +224,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486420413269</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="staff update">
+      <created>1486782580762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1486782580762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1568000" />
+    <option name="totallyTimeSpent" value="1585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="22" width="1411" height="857" extended-state="0" />
@@ -268,7 +274,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="form updated" />
     <MESSAGE value="main page updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="main page updated" />
+    <MESSAGE value="staff update" />
+    <option name="LAST_COMMIT_MESSAGE" value="staff update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
