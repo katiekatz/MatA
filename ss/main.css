@@ -425,7 +425,7 @@ h5 a:hover {
     display: block; }
   #main-body .small-main {
     display: none; }
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 475px) {
     #main-body .big-main {
       display: none; }
     #main-body .small-main {
@@ -435,10 +435,14 @@ h5 a:hover {
   #main-body main #main-box {
     background-color: #2f2c6c;
     position: relative;
-    margin-top: 250px; }
+    margin-top: 250px;
+    margin-bottom: 40px; }
   @media screen and (min-width: 1500px) {
     #main-body main #main-box {
       margin-top: 350px; } }
+  @media screen and (min-width: 2100px) {
+    #main-body main #main-box {
+      margin-top: 450px; } }
   @media screen and (max-width: 900px) {
     #main-body main #main-box h1 {
       font-size: 1.7em !important; }
