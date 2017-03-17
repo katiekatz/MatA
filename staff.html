@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.css">
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="./ss/main.css">
+        <link rel="icon" href="./favicon.gif">
     </head>
     <body>
 
@@ -19,35 +20,48 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="./index.html">Masterclasses at the Academies</a>
+                    <a class="navbar-brand big-nav" href="./index.html">Masterclasses at the Academies</a>
+                    <a class="navbar-brand small-nav" href="./index.html">MatA</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Staff</a></li>
                         <li><a href="./classes.html">Classes</a></li>
                         <li><a href="./schedule.html">Schedule</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./headshots.html">Headshots</a></li>
+                        <li><a href="./about.html">About</a></li>
                         <li><a href="./contact.html">Contact</a></li>
-                        <li><button type="button" class="btn btn-default navbar-btn">Register!</button></li>
+                        <li><a class="btn-a" target="_blank" href="http://www.brownpapertickets.com/event/2861753"><button type="button" class="btn btn-default navbar-btn">Register!</button></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
+        <div style="position:fixed" id="circle"></div>
+
         <div class="container-fluid main">
             <div class="row">
                 <h1 class="col-xs-6 col-xs-offset-3 title-text">Staff</h1>
             </div>
+            <div class="row">
+                <h4 class="col-xs-10 col-xs-offset-1 title-text">Click for full bio!</h4>
+            </div>
 
             <div class="row">
-                <div class="panel-group col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-                    <div class="panel panel-success">
+                <div class="panel-group col-md-10 col-md-offset-1 col-xs-12">
+                    <div class="panel">
                         <div class="panel-heading">Teachers</div>
-                        <div class="panel-body">
+
+                        <!--PANEL BIG-->
+
+                        <div class="panel-body panel-big">
                             <div class="row staff-row">
-                                <div class="col-xs-4">
+                                <div class="col-xs-4 panel">
                                     <!-- Trigger/Open The Modal -->
-                                    <img id="myImg1" src="defaultProfile.jpg" class="col-xs-12">
+                                    <div class="panel-body"><img id="myImg1" src="./headshots/flippinIdjits.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Academy for Flippin' Idjits</div>
+
 
                                     <!-- The Modal -->
                                     <div id="myModal1" class="modal">
@@ -62,9 +76,11 @@
                                     </div>
                                 </div>
 
-                                <div class="col-xs-4">
+                                <div class="col-xs-4 panel">
                                     <!-- Trigger/Open The Modal -->
-                                    <img id="myImg2" src="defaultProfile.jpg" class="col-xs-12">
+                                    <div class="panel-body"><img id="myImg2" src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">David Hugo</div>
 
                                     <!-- The Modal -->
                                     <div id="myModal2" class="modal">
@@ -79,9 +95,11 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xs-4">
+                                <div class="col-xs-4 panel">
                                     <!-- Trigger/Open The Modal -->
-                                    <img id="myImg3" src="defaultProfile.jpg" class="col-xs-12">
+                                    <div class="panel-body"><img id="myImg3" src="./headshots/aliciaRodis.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Alicia Rodis</div>
 
                                     <!-- The Modal -->
                                     <div id="myModal3" class="modal">
@@ -90,7 +108,7 @@
                                         <div class="modal-content">
                                             <span id="close3">&times;</span>
                                             <h2>Alicia Rodis</h2>
-                                            <h5>Alicia Rodis has been a member of the SAFD for over 10 years, and is currently the representative for the East Central Region of the SAFD! She is a professor of stage combat at CW Post at Long Island University, as well as a busy AEA actor, fight director, stunt performer and physical trainer here in New York City. A graduate of the Professional Actor Training Program at Wright State University, she travelled working consistently in regional theater until making New York City her home. She has worked with numerous companies and Universities in the East Central area and beyond including New York Shakespeare Exchange, The Public Theater, Cincinnati Shakespeare Company, The Human Race Theater Company, Extant Arts, The Essential Theatre Group, Manhattan Shakespeare Project, New York University, Columbia University, The Juilliard School, Stony brook University, as well The Brooklyn School for Classics, an outreach program to East New York schools. Alicia is also a member of the Vixens En Garde, an all female fight troupe, who she tours with often. She is also the co-coordinator for SAFD sanctioned workshop The New York Summer Sling.
+                                            <h5>Alicia Rodis is a certified teacher with the Society of American Fights Directors. She works as a fight director, stunt performer, and actor in New York City.  Alicia teaches at Long Island University, AMDA, and Valkyrie Combat Collective. Other credits include fight directing at Extant Arts (Henry IV), Mad Hat Theater (Macbeth), the Juilliard School, Long Island University, and PACE University, among others.
                                             </h5>
                                         </div>
 
@@ -98,9 +116,11 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-xs-4">
+                                <div class="col-xs-4 panel">
                                     <!-- Trigger/Open The Modal -->
-                                    <img id="myImg4" src="defaultProfile.jpg" class="col-xs-12">
+                                    <div class="panel-body"><img id="myImg4" src="./headshots/alexanderDiaz.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Alexander Diaz</div>
 
                                     <!-- The Modal -->
                                     <div id="myModal4" class="modal">
@@ -116,9 +136,11 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xs-4">
+                                <div class="col-xs-4 panel">
                                     <!-- Trigger/Open The Modal -->
-                                    <img id="myImg5" src="defaultProfile.jpg" class="col-xs-12">
+                                    <div class="panel-body"><img id="myImg5" src="./headshots/daveMilo.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Dave Milo</div>
 
                                     <!-- The Modal -->
                                     <div id="myModal5" class="modal">
@@ -133,9 +155,11 @@
 
                                     </div>
                                 </div>
-                                <div class="col-xs-4">
+                                <div class="col-xs-4 panel">
                                     <!-- Trigger/Open The Modal -->
-                                    <img id="myImg6" src="defaultProfile.jpg" class="col-xs-12">
+                                    <div class="panel-body"><img id="myImg6" src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Tim Santos</div>
 
                                     <!-- The Modal -->
                                     <div id="myModal6" class="modal">
@@ -151,19 +175,628 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-4 col-xs-offset-4 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg12" src="./headshots/omarEdwards.jpeg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Omar Edwards</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal12" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close12">&times;</span>
+                                            <h2>Omar Edwards</h2>
+                                            <h5>Omar Edwards, award winning /tap dancer /entertainer/ musician, has been in love with
+                                                tap dancing since he was twelve years old. Born in Brooklyn, New York, Omar’s
+                                                dancing has been shaped by Jimmy Slyde, Marie Brooks and his legendary cousin,
+                                                Savion Glover.
+                                                Omar, first earned national acclaim when he and tap partner Daniel B. Wooten Jr, were
+                                                grand prize-winners on the famed TV show “Star Search”. From there Omar embarked
+                                                on a career that now spans the worlds of music, dance, television, theatre, and film.
+                                                His journey includes performances in a variety of venues, including a
+                                                stellar performance as a featured dancer in Bring in 'da Noise, Bring in 'da Funk on
+                                                Broadway; in concert at the Whitehouse with Savion Glover, for President Barack
+                                                Obama; an appearance on the Ellen DeGeneres Show and as a featured dancer in
+                                                "Live at the Hollywood Bowl" with Alicia Keys.
+                                                Professional theatre audiences recently saw Omar as the Tap Griot in FLY, an Award
+                                                winning play about the famed Tuskegee Airmen of WWII, by playwrights Trey Ellis and
+                                                Ricardo Khan. His Performance in FLY garnered a BESSIE Award nomination at the
+                                                New Victory Theatre/New York, and a <a href="broadwayworld.com/la">BroadwayWorld.com/LA</a> Award nomination
+                                                for best performance by a featured actor at the Pasadena Playhouse.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="col-xs-6 col-xs-offset-3" style="text-align: center;">More coming soon!</h3>
                         </div>
+
+
+                        <!--PANEL MEDIUM-->
+
+                        <div class="panel-body panel-medium">
+                            <div class="row staff-row">
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg7" src="./headshots/flippinIdjits.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Academy for Flippin' Idjits</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal7" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close7">&times;</span>
+                                            <h2>St. John Bosco Academy for Flippin’ Idjits</h2>
+                                            <h5>In 2015, the St. John Bosco Academy for Flippin’ Idjits was founded by three performers with extensive experience in numerous styles of dance, acrobatics, gymnastics, and martial arts with one goal in common: to prepare physical performers of all kinds to ply their craft in unconventional environments. With their different backgrounds and unique perspectives, they focus on giving students the groundwork needed to hone their skills through individual practice and hard work. Combined, they have over 23 years of teaching experience and a lifetime each of performing. Currently, they offer donation based seminars once a month in Harrington Park.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg8" src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">David Hugo</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal8" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close8">&times;</span>
+                                            <h2>David Hugo</h2>
+                                            <h5>David Hugo has been a professor in the Theater Department at LIU CW Post since 2007. He teaches freshman acting and all the musical theater acting courses.  David has performed regionally, on national tours and on Broadway in shows such as Jekyll and Hyde, Iolanthe, Into the Woods, and a stellar 12-year career with Les Miserables where he portrayed Grantaire in the final Broadway cast.<br>He was on tour with the Broadway production of Les Miserables when he developed a love for teaching through the workshops he gave at high schools and universities across America, Asia and Canada. He left the Les Miserables tour in 2005 to pursue a master’s degree in theater.<br>David holds an M.A. in Theater from LIU CW Post, a B.F.A. in acting from Syracuse University and an Associates Degree in Music from Onondaga Community College.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg9" src="./headshots/aliciaRodis.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Alicia Rodis</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal9" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close9">&times;</span>
+                                            <h2>Alicia Rodis</h2>
+                                            <h5>Alicia Rodis is a certified teacher with the Society of American Fights Directors. She works as a fight director, stunt performer, and actor in New York City.  Alicia teaches at Long Island University, AMDA, and Valkyrie Combat Collective. Other credits include fight directing at Extant Arts (Henry IV), Mad Hat Theater (Macbeth), the Juilliard School, Long Island University, and PACE University, among others.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg13" src="./headshots/alexanderDiaz.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Alexander Diaz</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal13" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close13">&times;</span>
+                                            <h2>Alexander Diaz</h2>
+                                            <h5>Alexander Diaz is a singer, actor, director, and producer of theatre, as well as the Director of Education and Outreach at bergenPAC. Alexander acted as the producing artistic director at New Milford School and received rave reviews as well as several nominations from the National Youth Theatre Awards and The Helen Hayes Theatre Company.<br>He headed the outreach of the Union City Performing Arts Center where he served as Coordinator of the Theatre and brought many students and parents in the underdeveloped city a cultural awareness and provided a venue for the citizens of Union City to experience live performances by great Hispanic Stars. He has been affiliated with the Paper Mill Playhouse and has multiple credits at New Jersey Performing Arts Center. He is a graduate of the University of the Arts with a BFA in Theatre Management and Directing. In 2008 Alexander opened a theatre in Philadelphia dedicated to bringing to the stage the work of young talented actors in Philadelphia.
+
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg14" src="./headshots/daveMilo.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Dave Milo</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal14" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close14">&times;</span>
+                                            <h2>Dave Milo</h2>
+                                            <h5>Dave Milo has been performing in theater for most of his life, beginning long ago at the Actors’ Cafe in Bradley Beach, New Jersey. He has spent the last nine years performing scenes, improv, and stage combat at the New York Renaissance Faire in roles such as Robin Hood, William Shakespeare, and a turnip farmer. In that time he has worked with and learned from countless individuals in the New York City professional theater community, from experienced Disney leaders to primetime television writers and fight masters in the Society of American Fight Directors. In 2013 he received his Master’s in Education at Hunter College, and has taught middle school and high school English in the Bronx and Harlem since. This year he has had the pleasure of adding Shakespeare and theater to his curriculum.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg15" src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Tim Santos</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal15" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close15">&times;</span>
+                                            <h2>Tim Santos</h2>
+                                            <h5>Tim Santos received his early training in Akron, Ohio, and started his professional performing career dancing in productions for Cleveland Opera, the Houston Grand Opera, and with the Metropolitan Opera Ballet at New York’s Lincoln Center for the Performing Arts. He has appeared in productions at theaters throughout the United States including The Actor's Theater of Louisville, Houston's Theater Under the Stars, and Pittsburgh's Civic Light Opera. He was the assistant to Herbert Ross for Jubilee! at Carnegie Hall. Tim’s television credits include the ABC television remake of Bye Bye Birdie, the Super Bowl XXXIV half-time show and The Conan O’Brien Show.<br>In 1994 Tim started performing in the Christmas Spectacular at New York City's famed Radio City Music Hall. In 14 years at Radio City Tim’s responsibilities transitioned to include the positions of swing, dance captain, assistant choreographer and assistant director. He remained a member of the creative staff and a performing member of the Ensemble through the 75th Anniversary production of the Christmas Spectacular in 2007.<br>Tim developed his skills as an art’s educator, teacher and choreographer at the National Dance Institute (NDI) in the New York City Public Schools, under the leadership of Jacques d’Amboise. During that time he was the principal teacher/choreographer for the Borough of Brooklyn Outreach Program and also taught the S.W.A.T. and Celebration teams. He was the director of the Logan Summer Institute programs in 1993 and 1994 and directed Residency Programs in Trenton, NJ and Silver City, NM. More recently, Tim served as the Artistic Director of National Dance Institute of New Mexico (NDI-NM) from 2008-2010, overseeing quality art’s education for more than 6,200 students throughout the State of New Mexico each year.<br>Tim is currently the Director of Artistic Production at the Wyckoff Family YMCA, where he teaches dance at Studio 691, directs and choreographs for the Y Arts Theatre Company and the Y Arts Youth Theatre and contributes to all major public presentations at this thriving and dynamic organization.<br>Tim is always thrilled to be able to bring his love of musical theater and dance to a new generation of students.  He is the Founding Artistic Director of the Broadway Theater Dance Workshop and has served on the Advisory Board of Rosie’s Theater Kids – an arts education program founded by Rosie O’Donnell, which brings a professional Broadway experience to 5th grade students in the New York City Public Schools.  Tim is a presenter and faculty member at the annual Dance Teacher Web conference, bringing new and innovative concepts in dance, education and business to dance instructors, studio owners, college dance majors and professional dancers planning for career transition.<br>Tim has judged and taught for many national performing arts competitions and conventions. He is a member of Actor’s Equity Association, Screen Actors Guild, the American Federation of Television and Radio Artists, the American Guild of Musical Artists and the American Guild of Variety Artists.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-6 col-xs-offset-3 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg16" src="./headshots/omarEdwards.jpeg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Omar Edwards</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal16" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close16">&times;</span>
+                                            <h2>Omar Edwards</h2>
+                                            <h5>Omar Edwards, award winning /tap dancer /entertainer/ musician, has been in love with
+                                                tap dancing since he was twelve years old. Born in Brooklyn, New York, Omar’s
+                                                dancing has been shaped by Jimmy Slyde, Marie Brooks and his legendary cousin,
+                                                Savion Glover.
+                                                Omar, first earned national acclaim when he and tap partner Daniel B. Wooten Jr, were
+                                                grand prize-winners on the famed TV show “Star Search”. From there Omar embarked
+                                                on a career that now spans the worlds of music, dance, television, theatre, and film.
+                                                His journey includes performances in a variety of venues, including a
+                                                stellar performance as a featured dancer in Bring in 'da Noise, Bring in 'da Funk on
+                                                Broadway; in concert at the Whitehouse with Savion Glover, for President Barack
+                                                Obama; an appearance on the Ellen DeGeneres Show and as a featured dancer in
+                                                "Live at the Hollywood Bowl" with Alicia Keys.
+                                                Professional theatre audiences recently saw Omar as the Tap Griot in FLY, an Award
+                                                winning play about the famed Tuskegee Airmen of WWII, by playwrights Trey Ellis and
+                                                Ricardo Khan. His Performance in FLY garnered a BESSIE Award nomination at the
+                                                New Victory Theatre/New York, and a <a href="broadwayworld.com/la">BroadwayWorld.com/LA</a> Award nomination
+                                                for best performance by a featured actor at the Pasadena Playhouse.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="col-xs-6 col-xs-offset-3" style="text-align: center;">More coming soon!</h3>
+                        </div>
+
+                        <!--PANEL SMALL-->
+
+                        <div class="panel-body panel-small">
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg17" src="./headshots/flippinIdjits.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Academy for Flippin' Idjits</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal17" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close17">&times;</span>
+                                            <h2>St. John Bosco Academy for Flippin’ Idjits</h2>
+                                            <h5>In 2015, the St. John Bosco Academy for Flippin’ Idjits was founded by three performers with extensive experience in numerous styles of dance, acrobatics, gymnastics, and martial arts with one goal in common: to prepare physical performers of all kinds to ply their craft in unconventional environments. With their different backgrounds and unique perspectives, they focus on giving students the groundwork needed to hone their skills through individual practice and hard work. Combined, they have over 23 years of teaching experience and a lifetime each of performing. Currently, they offer donation based seminars once a month in Harrington Park.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg18" src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">David Hugo</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal18" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close18">&times;</span>
+                                            <h2>David Hugo</h2>
+                                            <h5>David Hugo has been a professor in the Theater Department at LIU CW Post since 2007. He teaches freshman acting and all the musical theater acting courses.  David has performed regionally, on national tours and on Broadway in shows such as Jekyll and Hyde, Iolanthe, Into the Woods, and a stellar 12-year career with Les Miserables where he portrayed Grantaire in the final Broadway cast.<br>He was on tour with the Broadway production of Les Miserables when he developed a love for teaching through the workshops he gave at high schools and universities across America, Asia and Canada. He left the Les Miserables tour in 2005 to pursue a master’s degree in theater.<br>David holds an M.A. in Theater from LIU CW Post, a B.F.A. in acting from Syracuse University and an Associates Degree in Music from Onondaga Community College.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg19" src="./headshots/aliciaRodis.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Alicia Rodis</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal19" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close19">&times;</span>
+                                            <h2>Alicia Rodis</h2>
+                                            <h5>Alicia Rodis is a certified teacher with the Society of American Fights Directors. She works as a fight director, stunt performer, and actor in New York City.  Alicia teaches at Long Island University, AMDA, and Valkyrie Combat Collective. Other credits include fight directing at Extant Arts (Henry IV), Mad Hat Theater (Macbeth), the Juilliard School, Long Island University, and PACE University, among others.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg20" src="./headshots/alexanderDiaz.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Alexander Diaz</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal20" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close20">&times;</span>
+                                            <h2>Alexander Diaz</h2>
+                                            <h5>Alexander Diaz is a singer, actor, director, and producer of theatre, as well as the Director of Education and Outreach at bergenPAC. Alexander acted as the producing artistic director at New Milford School and received rave reviews as well as several nominations from the National Youth Theatre Awards and The Helen Hayes Theatre Company.<br>He headed the outreach of the Union City Performing Arts Center where he served as Coordinator of the Theatre and brought many students and parents in the underdeveloped city a cultural awareness and provided a venue for the citizens of Union City to experience live performances by great Hispanic Stars. He has been affiliated with the Paper Mill Playhouse and has multiple credits at New Jersey Performing Arts Center. He is a graduate of the University of the Arts with a BFA in Theatre Management and Directing. In 2008 Alexander opened a theatre in Philadelphia dedicated to bringing to the stage the work of young talented actors in Philadelphia.
+
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg21" src="./headshots/daveMilo.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Dave Milo</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal21" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close21">&times;</span>
+                                            <h2>Dave Milo</h2>
+                                            <h5>Dave Milo has been performing in theater for most of his life, beginning long ago at the Actors’ Cafe in Bradley Beach, New Jersey. He has spent the last nine years performing scenes, improv, and stage combat at the New York Renaissance Faire in roles such as Robin Hood, William Shakespeare, and a turnip farmer. In that time he has worked with and learned from countless individuals in the New York City professional theater community, from experienced Disney leaders to primetime television writers and fight masters in the Society of American Fight Directors. In 2013 he received his Master’s in Education at Hunter College, and has taught middle school and high school English in the Bronx and Harlem since. This year he has had the pleasure of adding Shakespeare and theater to his curriculum.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg22" src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Tim Santos</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal22" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close22">&times;</span>
+                                            <h2>Tim Santos</h2>
+                                            <h5>Tim Santos received his early training in Akron, Ohio, and started his professional performing career dancing in productions for Cleveland Opera, the Houston Grand Opera, and with the Metropolitan Opera Ballet at New York’s Lincoln Center for the Performing Arts. He has appeared in productions at theaters throughout the United States including The Actor's Theater of Louisville, Houston's Theater Under the Stars, and Pittsburgh's Civic Light Opera. He was the assistant to Herbert Ross for Jubilee! at Carnegie Hall. Tim’s television credits include the ABC television remake of Bye Bye Birdie, the Super Bowl XXXIV half-time show and The Conan O’Brien Show.<br>In 1994 Tim started performing in the Christmas Spectacular at New York City's famed Radio City Music Hall. In 14 years at Radio City Tim’s responsibilities transitioned to include the positions of swing, dance captain, assistant choreographer and assistant director. He remained a member of the creative staff and a performing member of the Ensemble through the 75th Anniversary production of the Christmas Spectacular in 2007.<br>Tim developed his skills as an art’s educator, teacher and choreographer at the National Dance Institute (NDI) in the New York City Public Schools, under the leadership of Jacques d’Amboise. During that time he was the principal teacher/choreographer for the Borough of Brooklyn Outreach Program and also taught the S.W.A.T. and Celebration teams. He was the director of the Logan Summer Institute programs in 1993 and 1994 and directed Residency Programs in Trenton, NJ and Silver City, NM. More recently, Tim served as the Artistic Director of National Dance Institute of New Mexico (NDI-NM) from 2008-2010, overseeing quality art’s education for more than 6,200 students throughout the State of New Mexico each year.<br>Tim is currently the Director of Artistic Production at the Wyckoff Family YMCA, where he teaches dance at Studio 691, directs and choreographs for the Y Arts Theatre Company and the Y Arts Youth Theatre and contributes to all major public presentations at this thriving and dynamic organization.<br>Tim is always thrilled to be able to bring his love of musical theater and dance to a new generation of students.  He is the Founding Artistic Director of the Broadway Theater Dance Workshop and has served on the Advisory Board of Rosie’s Theater Kids – an arts education program founded by Rosie O’Donnell, which brings a professional Broadway experience to 5th grade students in the New York City Public Schools.  Tim is a presenter and faculty member at the annual Dance Teacher Web conference, bringing new and innovative concepts in dance, education and business to dance instructors, studio owners, college dance majors and professional dancers planning for career transition.<br>Tim has judged and taught for many national performing arts competitions and conventions. He is a member of Actor’s Equity Association, Screen Actors Guild, the American Federation of Television and Radio Artists, the American Guild of Musical Artists and the American Guild of Variety Artists.
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg23" src="./headshots/omarEdwards.jpeg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Omar Edwards</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal23" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close23">&times;</span>
+                                            <h2>Omar Edwards</h2>
+                                            <h5>Omar Edwards, award winning /tap dancer /entertainer/ musician, has been in love with
+                                                tap dancing since he was twelve years old. Born in Brooklyn, New York, Omar’s
+                                                dancing has been shaped by Jimmy Slyde, Marie Brooks and his legendary cousin,
+                                                Savion Glover.
+                                                Omar, first earned national acclaim when he and tap partner Daniel B. Wooten Jr, were
+                                                grand prize-winners on the famed TV show “Star Search”. From there Omar embarked
+                                                on a career that now spans the worlds of music, dance, television, theatre, and film.
+                                                His journey includes performances in a variety of venues, including a
+                                                stellar performance as a featured dancer in Bring in 'da Noise, Bring in 'da Funk on
+                                                Broadway; in concert at the Whitehouse with Savion Glover, for President Barack
+                                                Obama; an appearance on the Ellen DeGeneres Show and as a featured dancer in
+                                                "Live at the Hollywood Bowl" with Alicia Keys.
+                                                Professional theatre audiences recently saw Omar as the Tap Griot in FLY, an Award
+                                                winning play about the famed Tuskegee Airmen of WWII, by playwrights Trey Ellis and
+                                                Ricardo Khan. His Performance in FLY garnered a BESSIE Award nomination at the
+                                                New Victory Theatre/New York, and a <a href="broadwayworld.com/la">BroadwayWorld.com/LA</a> Award nomination
+                                                for best performance by a featured actor at the Pasadena Playhouse.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <h3 class="col-xs-12" style="text-align: center;">More coming soon!</h3>
+
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div class="panel panel-info">
+                    <div class="panel">
                         <div class="panel-heading">Organizers</div>
-                        <div class="panel-body">
+                        <div class="panel-body panel-big">
+                            <div class="row staff-row">
+                                <div class="col-xs-4 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="./headshots/katieDickey.JPG" class="col-xs-12"></div>
 
+                                    <div class="panel-footer">Katherine Dickey</div>
+
+                                </div>
+
+                                <div class="col-xs-4 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Claire Kwon</div>
+
+                                </div>
+                                <div class="col-xs-4 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Maddie Powell</div>
+
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-4 col-xs-offset-4 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="./headshots/katieKatz.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Kaitlyn Katz</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body panel-medium">
+                            <div class="row staff-row">
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="./headshots/katieDickey.JPG" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Katherine Dickey</div>
+
+                                </div>
+
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Claire Kwon</div>
+
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Maddie Powell</div>
+
+                                </div>
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="./headshots/katieKatz.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Kaitlyn Katz</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body panel-small">
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="./headshots/katieDickey.JPG" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Katherine Dickey</div>
+
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Claire Kwon</div>
+
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="defaultProfile.jpg" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Maddie Powell</div>
+
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img src="./headshots/katieKatz.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Kaitlyn Katz</div>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="panel panel-warning">
+                    <div class="panel">
                         <div class="panel-heading">Advisors</div>
-                        <div class="panel-body">
+                        <div class="panel-body panel-big">
+                            <div class="row staff-row">
+                                <div class="col-xs-4 col-xs-offset-2 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg10" src="./headshots/stephenKaplan.png" class="col-xs-12"></div>
 
+                                    <div class="panel-footer">Stephen Kaplan</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal10" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close10">&times;</span>
+                                            <h2>Stephen Kaplan</h2>
+                                            <h5>I'm a placeholder description.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-4 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg11" src="./headshots/victoriaPero.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Victoria Pero</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal11" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close11">&times;</span>
+                                            <h2>Victoria Pero</h2>
+                                            <h5>I'm a placeholder description.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="panel-body panel-medium">
+                            <div class="row staff-row">
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg24" src="./headshots/stephenKaplan.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Stephen Kaplan</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal24" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close24">&times;</span>
+                                            <h2>Stephen Kaplan</h2>
+                                            <h5>I'm a placeholder description.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg25" src="./headshots/victoriaPero.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Victoria Pero</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal25" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close25">&times;</span>
+                                            <h2>Victoria Pero</h2>
+                                            <h5>I'm a placeholder description.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-body panel-small">
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg26" src="./headshots/stephenKaplan.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Stephen Kaplan</div>
+
+
+                                    <!-- The Modal -->
+                                    <div id="myModal26" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close26">&times;</span>
+                                            <h2>Stephen Kaplan</h2>
+                                            <h5>I'm a placeholder description.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row staff-row">
+                                <div class="col-xs-12 panel">
+                                    <!-- Trigger/Open The Modal -->
+                                    <div class="panel-body"><img id="myImg27" src="./headshots/victoriaPero.png" class="col-xs-12"></div>
+
+                                    <div class="panel-footer">Victoria Pero</div>
+
+                                    <!-- The Modal -->
+                                    <div id="myModal27" class="modal">
+
+                                        <!-- Modal content -->
+                                        <div class="modal-content">
+                                            <span id="close27">&times;</span>
+                                            <h2>Victoria Pero</h2>
+                                            <h5>I'm a placeholder description.</h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -303,6 +936,463 @@
                 modal6.style.display = "none";
             }
 
+            //MODAL 7
+
+            // Get the modal
+            var modal7 = document.getElementById('myModal7');
+
+            // Get the button that opens the modal
+            var btn7 = document.getElementById("myImg7");
+
+            // Get the <span> element that closes the modal
+            var span7 = document.getElementById("close7");
+
+            // When the user clicks on the button, open the modal
+            btn7.onclick = function() {
+                modal7.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span7.onclick = function() {
+                modal7.style.display = "none";
+            }
+
+            //MODAL 8
+
+            // Get the modal
+            var modal8 = document.getElementById('myModal8');
+
+            // Get the button that opens the modal
+            var btn8 = document.getElementById("myImg8");
+
+            // Get the <span> element that closes the modal
+            var span8 = document.getElementById("close8");
+
+            // When the user clicks on the button, open the modal
+            btn8.onclick = function() {
+                modal8.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span8.onclick = function() {
+                modal8.style.display = "none";
+            }
+
+            //MODAL 9
+
+            // Get the modal
+            var modal9 = document.getElementById('myModal9');
+
+            // Get the button that opens the modal
+            var btn9 = document.getElementById("myImg9");
+
+            // Get the <span> element that closes the modal
+            var span9 = document.getElementById("close9");
+
+            // When the user clicks on the button, open the modal
+            btn9.onclick = function() {
+                modal9.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span9.onclick = function() {
+                modal9.style.display = "none";
+            }
+
+            //MODAL 10
+
+            // Get the modal
+            var modal10 = document.getElementById('myModal10');
+
+            // Get the button that opens the modal
+            var btn10 = document.getElementById("myImg10");
+
+            // Get the <span> element that closes the modal
+            var span10 = document.getElementById("close10");
+
+            // When the user clicks on the button, open the modal
+            btn10.onclick = function() {
+                modal10.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span10.onclick = function() {
+                modal10.style.display = "none";
+            }
+
+            //MODAL 11
+
+            // Get the modal
+            var modal11 = document.getElementById('myModal11');
+
+            // Get the button that opens the modal
+            var btn11 = document.getElementById("myImg11");
+
+            // Get the <span> element that closes the modal
+            var span11 = document.getElementById("close11");
+
+            // When the user clicks on the button, open the modal
+            btn11.onclick = function() {
+                modal11.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span11.onclick = function() {
+                modal11.style.display = "none";
+            }
+
+            //MODAL 12
+
+            // Get the modal
+            var modal12 = document.getElementById('myModal12');
+
+            // Get the button that opens the modal
+            var btn12 = document.getElementById("myImg12");
+
+            // Get the <span> element that closes the modal
+            var span12 = document.getElementById("close12");
+
+            // When the user clicks on the button, open the modal
+            btn12.onclick = function() {
+                modal12.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span12.onclick = function() {
+                modal12.style.display = "none";
+            }
+
+            //MODAL 13
+
+            // Get the modal
+            var modal13 = document.getElementById('myModal13');
+
+            // Get the button that opens the modal
+            var btn13 = document.getElementById("myImg13");
+
+            // Get the <span> element that closes the modal
+            var span13 = document.getElementById("close13");
+
+            // When the user clicks on the button, open the modal
+            btn13.onclick = function() {
+                modal13.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span13.onclick = function() {
+                modal13.style.display = "none";
+            }
+
+            //MODAL 14
+
+            // Get the modal
+            var modal14 = document.getElementById('myModal14');
+
+            // Get the button that opens the modal
+            var btn14 = document.getElementById("myImg14");
+
+            // Get the <span> element that closes the modal
+            var span14 = document.getElementById("close14");
+
+            // When the user clicks on the button, open the modal
+            btn14.onclick = function() {
+                modal14.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span14.onclick = function() {
+                modal14.style.display = "none";
+            }
+
+            //MODAL 15
+
+            // Get the modal
+            var modal15 = document.getElementById('myModal15');
+
+            // Get the button that opens the modal
+            var btn15 = document.getElementById("myImg15");
+
+            // Get the <span> element that closes the modal
+            var span15 = document.getElementById("close15");
+
+            // When the user clicks on the button, open the modal
+            btn15.onclick = function() {
+                modal15.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span15.onclick = function() {
+                modal15.style.display = "none";
+            }
+
+
+            //MODAL 16
+
+            // Get the modal
+            var modal16 = document.getElementById('myModal16');
+
+            // Get the button that opens the modal
+            var btn16 = document.getElementById("myImg16");
+
+            // Get the <span> element that closes the modal
+            var span16 = document.getElementById("close16");
+
+            // When the user clicks on the button, open the modal
+            btn16.onclick = function() {
+                modal16.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span16.onclick = function() {
+                modal16.style.display = "none";
+            }
+
+
+            //MODAL 17
+
+            // Get the modal
+            var modal17 = document.getElementById('myModal17');
+
+            // Get the button that opens the modal
+            var btn17 = document.getElementById("myImg17");
+
+            // Get the <span> element that closes the modal
+            var span17 = document.getElementById("close17");
+
+            // When the user clicks on the button, open the modal
+            btn17.onclick = function() {
+                modal17.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span17.onclick = function() {
+                modal17.style.display = "none";
+            }
+
+
+            //MODAL 18
+
+            // Get the modal
+            var modal18 = document.getElementById('myModal18');
+
+            // Get the button that opens the modal
+            var btn18 = document.getElementById("myImg18");
+
+            // Get the <span> element that closes the modal
+            var span18 = document.getElementById("close18");
+
+            // When the user clicks on the button, open the modal
+            btn18.onclick = function() {
+                modal18.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span18.onclick = function() {
+                modal18.style.display = "none";
+            }
+
+
+            //MODAL 19
+
+            // Get the modal
+            var modal19 = document.getElementById('myModal19');
+
+            // Get the button that opens the modal
+            var btn19 = document.getElementById("myImg19");
+
+            // Get the <span> element that closes the modal
+            var span19 = document.getElementById("close19");
+
+            // When the user clicks on the button, open the modal
+            btn19.onclick = function() {
+                modal19.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span19.onclick = function() {
+                modal19.style.display = "none";
+            }
+
+
+            //MODAL 20
+
+            // Get the modal
+            var modal20 = document.getElementById('myModal20');
+
+            // Get the button that opens the modal
+            var btn20 = document.getElementById("myImg20");
+
+            // Get the <span> element that closes the modal
+            var span20 = document.getElementById("close20");
+
+            // When the user clicks on the button, open the modal
+            btn20.onclick = function() {
+                modal20.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span20.onclick = function() {
+                modal20.style.display = "none";
+            }
+
+
+            //MODAL 21
+
+            // Get the modal
+            var modal21 = document.getElementById('myModal21');
+
+            // Get the button that opens the modal
+            var btn21 = document.getElementById("myImg21");
+
+            // Get the <span> element that closes the modal
+            var span21 = document.getElementById("close21");
+
+            // When the user clicks on the button, open the modal
+            btn21.onclick = function() {
+                modal21.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span21.onclick = function() {
+                modal21.style.display = "none";
+            }
+
+
+            //MODAL 22
+
+            // Get the modal
+            var modal22 = document.getElementById('myModal22');
+
+            // Get the button that opens the modal
+            var btn22 = document.getElementById("myImg22");
+
+            // Get the <span> element that closes the modal
+            var span22 = document.getElementById("close22");
+
+            // When the user clicks on the button, open the modal
+            btn22.onclick = function() {
+                modal22.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span22.onclick = function() {
+                modal22.style.display = "none";
+            }
+
+
+            //MODAL 23
+
+            // Get the modal
+            var modal23 = document.getElementById('myModal23');
+
+            // Get the button that opens the modal
+            var btn23 = document.getElementById("myImg23");
+
+            // Get the <span> element that closes the modal
+            var span23 = document.getElementById("close23");
+
+            // When the user clicks on the button, open the modal
+            btn23.onclick = function() {
+                modal23.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span23.onclick = function() {
+                modal23.style.display = "none";
+            }
+
+
+            //MODAL 24
+
+            // Get the modal
+            var modal24 = document.getElementById('myModal24');
+
+            // Get the button that opens the modal
+            var btn24 = document.getElementById("myImg24");
+
+            // Get the <span> element that closes the modal
+            var span24 = document.getElementById("close24");
+
+            // When the user clicks on the button, open the modal
+            btn24.onclick = function() {
+                modal24.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span24.onclick = function() {
+                modal24.style.display = "none";
+            }
+
+
+            //MODAL 25
+
+            // Get the modal
+            var modal25 = document.getElementById('myModal25');
+
+            // Get the button that opens the modal
+            var btn25 = document.getElementById("myImg25");
+
+            // Get the <span> element that closes the modal
+            var span25 = document.getElementById("close25");
+
+            // When the user clicks on the button, open the modal
+            btn25.onclick = function() {
+                modal25.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span25.onclick = function() {
+                modal25.style.display = "none";
+            }
+
+
+            //MODAL 26
+
+            // Get the modal
+            var modal26 = document.getElementById('myModal26');
+
+            // Get the button that opens the modal
+            var btn26 = document.getElementById("myImg26");
+
+            // Get the <span> element that closes the modal
+            var span26 = document.getElementById("close26");
+
+            // When the user clicks on the button, open the modal
+            btn26.onclick = function() {
+                modal26.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span26.onclick = function() {
+                modal26.style.display = "none";
+            }
+
+
+            //MODAL 27
+
+            // Get the modal
+            var modal27 = document.getElementById('myModal27');
+
+            // Get the button that opens the modal
+            var btn27 = document.getElementById("myImg27");
+
+            // Get the <span> element that closes the modal
+            var span27 = document.getElementById("close27");
+
+            // When the user clicks on the button, open the modal
+            btn27.onclick = function() {
+                modal27.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span27.onclick = function() {
+                modal27.style.display = "none";
+            }
+
+
+
+
+
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
                 if (event.target == modal1) {
@@ -322,6 +1412,69 @@
                 }
                 if (event.target == modal6) {
                     modal6.style.display = "none";
+                }
+                if (event.target == modal7) {
+                    modal7.style.display = "none";
+                }
+                if (event.target == modal8) {
+                    modal8.style.display = "none";
+                }
+                if (event.target == modal9) {
+                    modal9.style.display = "none";
+                }
+                if (event.target == modal10) {
+                    modal10.style.display = "none";
+                }
+                if (event.target == modal11) {
+                    modal11.style.display = "none";
+                }
+                if (event.target == modal12) {
+                    modal12.style.display = "none";
+                }
+                if (event.target == modal13) {
+                    modal13.style.display = "none";
+                }
+                if (event.target == modal14) {
+                    modal14.style.display = "none";
+                }
+                if (event.target == modal15) {
+                    modal15.style.display = "none";
+                }
+                if (event.target == modal16) {
+                    modal16.style.display = "none";
+                }
+                if (event.target == modal17) {
+                    modal17.style.display = "none";
+                }
+                if (event.target == modal18) {
+                    modal18.style.display = "none";
+                }
+                if (event.target == modal19) {
+                    modal19.style.display = "none";
+                }
+                if (event.target == modal20) {
+                    modal20.style.display = "none";
+                }
+                if (event.target == modal21) {
+                    modal21.style.display = "none";
+                }
+                if (event.target == modal22) {
+                    modal22.style.display = "none";
+                }
+                if (event.target == modal23) {
+                    modal23.style.display = "none";
+                }
+                if (event.target == modal24) {
+                    modal24.style.display = "none";
+                }
+                if (event.target == modal25) {
+                    modal25.style.display = "none";
+                }
+                if (event.target == modal26) {
+                    modal26.style.display = "none";
+                }
+                if (event.target == modal27) {
+                    modal27.style.display = "none";
                 }
             }
         </script>
