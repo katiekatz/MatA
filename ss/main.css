@@ -84,6 +84,9 @@ h1 {
 .main {
   padding-top: 50px; }
 
+#about-page-html .main, #contact-page-html .main {
+  padding-top: 100px !important; }
+
 .btn-a {
   margin: 0 !important;
   padding: 0 !important; }
@@ -400,7 +403,7 @@ h5 a:hover {
   -o-background-size: cover !important;
   background-size: cover !important; }
 
-#about-body {
+.about-main, #about-body {
   background-color: black !important; }
 
 #main-body {
