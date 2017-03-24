@@ -122,9 +122,16 @@ h1 {
   padding-top: 50px;
 }
 
-#about-page-html .main, #contact-page-html .main {
+#contact-page-html .main {
   padding-top: 100px !important;
 }
+
+//@media screen and (min-width: 561px){
+//  .about-wrapper {
+//    position: absolute;
+//    bottom: 0 !important;
+//  }
+//}
 
 .btn-a {
   margin: 0 !important;
