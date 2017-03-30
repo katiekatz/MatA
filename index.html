@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" id="main-page-html" style="background: #5a578a;">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="UTF-8">
         <title>Masterclasses at the Academies</title>
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
@@ -57,12 +57,13 @@
                     <div class="col-xs-10 col-xs-offset-1" id="main-box">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h2 class="title-text">April 23<sup>rd</sup>, 2017</h2>
+                                <h2 class="title-text">April 23, 2017</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <h3 class="title-text">9am-3pm</h3>
+                                <h3 class="title-text col-xs-6" id="leftie">9am-3pm</h3>
+                                <h3 class="title-text col-xs-6" id="rightie">Ages 13-18</h3>
                             </div>
                         </div>
                         <div class="row">
@@ -73,11 +74,6 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <h3 class="title-text">A Day of Professional Theatre Workshops</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h4 class="title-text">for middle and high school students</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -114,12 +110,13 @@
                     <div class="col-xs-10 col-xs-offset-1" id="main-box">
                         <div class="row">
                             <div class="col-xs-12">
-                                <h2 class="title-text">April 23<sup>rd</sup>, 2017</h2>
+                                <h2 class="title-text">April 23, 2017</h2>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <h3 class="title-text">9am-3pm</h3>
+                                <h3 class="title-text col-xs-6" id="leftie2">9am-3pm</h3>
+                                <h3 class="title-text col-xs-6" id="rightie2">Ages 13-18</h3>
                             </div>
                         </div>
                         <div class="row">
@@ -130,11 +127,6 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <h3 class="title-text">A Day of Professional Theatre Workshops</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h4 class="title-text">for middle and high school students</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -192,5 +184,23 @@
         <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script>
+            $(window).resize(function(){
+                var $width = $(window).width();
+                if(($width > 475 && $width < 558)){
+                    $('#leftie, #rightie').removeClass('col-xs-6');
+                    $('#leftie, #rightie').addClass('col-xs-12');
+                } else if($width <= 475 && $width >= 372) {
+                    $('#leftie2, #rightie2').removeClass('col-xs-12');
+                    $('#leftie2, #rightie2').addClass('col-xs-6');
+                } else if($width < 372){
+                    $('#leftie2, #rightie2').removeClass('col-xs-6');
+                    $('#leftie2, #rightie2').addClass('col-xs-12');
+                } else {
+                    $('#leftie, #rightie').removeClass('col-xs-12');
+                    $('#leftie, #rightie').addClass('col-xs-6');
+                }
+            });
+        </script>
     </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" id="schedule-page-html">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" charset="UTF-8">
         <title>MatA: Schedule</title>
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
@@ -72,8 +72,8 @@
                         <tr>
                             <th>ProdArts, 007</th>
                             <td>Costuming- Joby Horrigan</td>
-                            <td>Physical Theatre- Dave Milo</td>
-                            <td>Physical Theatre- Dave Milo</td>
+                            <td>The Physicality of Theatre- Dave Milo</td>
+                            <td>The Physicality of Theatre- Dave Milo</td>
                             <td>LUNCH</td>
                             <td></td>
                             <td></td>
@@ -115,12 +115,12 @@
                         </tr>
                         <tr>
                             <th>Room 148</th>
-                            <td>College Boot Camp</td>
-                            <td>College Boot Camp</td>
-                            <td>College Boot Camp</td>
+                            <td>College Boot Camp- Victoria Pero &amp; Nancy Ringham</td>
+                            <td>College Boot Camp- Victoria Pero &amp; Nancy Ringham</td>
+                            <td>College Boot Camp- Victoria Pero &amp; Nancy Ringham</td>
                             <td>LUNCH</td>
-                            <td>College Boot Camp</td>
-                            <td>College Boot Camp</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <th>Theatre Arts Studio, 216</th>
@@ -145,6 +145,21 @@
 
             </row>
 
+            <div id="myModal1" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="close1">&times;</span>
+                    <h2>The Physicality of Theatre</h2>
+                    <h5>The Physicality of Theater is a workshop designed to strengthen an actor's awareness of their body and its capabilities for storytelling. Participants will practice altering their posture, movement patterns, and expressions beyond their comfort zones in order to facilitate a complete transformation. Activities will include full-body stretching, silent storytelling and communication, movement and stride training, and others designed to extend an actor's range and confidence in their body. Comfortable clothing is needed, as the workshop will consist of many movement based exercises.
+                    </h5>
+                    <h2>Dave Milo</h2>
+                    <h5>Dave Milo has been performing in theater for most of his life, beginning long ago at the Actors' Cafe in Bradley Beach, New Jersey. He has spent the last nine years performing scenes, improv, and stage combat at the New York Renaissance Faire in roles such as Robin Hood, William Shakespeare, and a turnip farmer. In that time he has worked with and learned from countless individuals in the New York City professional theater community, from experienced Disney leaders to primetime television writers and fight masters in the Society of American Fight Directors. In 2013 he received his Master's in Education at Hunter College, and has taught middle school and high school English in the Bronx and Harlem since. This year he has had the pleasure of adding Shakespeare and theater to his curriculum.
+                    </h5>
+                </div>
+
+            </div>
+
             <div class="row">
                 <h3 class="col-xs-12 title-text">Click the "Register!" button above or register below!</h3>
             </div>
@@ -161,5 +176,34 @@
         <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script>
+            //MODAL 1
+
+            // Get the modal
+            var modal1 = document.getElementById('myModal1');
+
+            // Get the button that opens the modal
+            var btn1 = document.getElementById("myTD1");
+
+            // Get the <span> element that closes the modal
+            var span1 = document.getElementById("close1");
+
+            // When the user clicks on the button, open the modal
+            btn1.onclick = function() {
+                modal1.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span1.onclick = function() {
+                modal1.style.display = "none";
+            }
+
+
+            window.onclick = function(event) {
+                if (event.target == modal1) {
+                    modal1.style.display = "none";
+                }
+            }
+        </script>
     </body>
 </html>
