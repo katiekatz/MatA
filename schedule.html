@@ -121,7 +121,7 @@
                             <td id="myTD22">College Boot Camp- Victoria Pero &amp; Nancy Ringham</td>
                             <td id="myTD23">College Boot Camp- Victoria Pero &amp; Nancy Ringham</td>
                             <td>LUNCH</td>
-                            <td></td>
+                            <td id="myTD37">It's All In The Timing- Robin Irwin</td>
                             <td></td>
                         </tr>
                         <tr>
@@ -462,6 +462,20 @@
 
             </div>
 
+            <div id="myModal21" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span id="close21">&times;</span>
+                    <h2>It's All In The Timing</h2>
+                    <h5>Ever feel like a big loaf on-stage not really listening to the other acting "act" while you figure out how to "emote?"  Sure, ya have. What makes a scene crackle with excitement or joke really work? Come join the fun to play with some techniques to raise those stakes and keep a scene moving all while staying active and engaged.  Pro-Tip--It Ain't All About You!!<br>
+                        Some light memorization and eating will be involved. Yes, eating. School Safe products!</h5>
+                    <h2>Robin Irwin</h2>
+                    <h5>Robin Irwin is an adjunct faculty member at Montclair State University and Producing Director of the Theatre Night Awards. Additional teaching credits include: NYU; NYFA and masterclasses with her creative partnership- Road Masters. In her former life she did some shows on Broadway and Off; National Tours and crazy bus tours in Europe. She has done voiceovers for everything from baby products to chainsaws and has sung with symphonies around the world; actually onstage--not just in the audience!</h5>
+                </div>
+
+            </div>
+
             <!--END MODALS-->
 
             <div class="row">
@@ -504,6 +518,7 @@
             var modal18 = document.getElementById('myModal18');
             var modal19 = document.getElementById('myModal19');
             var modal20 = document.getElementById('myModal20');
+            var modal21 = document.getElementById('myModal21');
 
             // Get the button that opens the modal
             var btn1 = document.getElementById("myTD1");
@@ -542,6 +557,7 @@
             var btn34 = document.getElementById("myTD34");
             var btn35 = document.getElementById("myTD35");
             var btn36 = document.getElementById("myTD36");
+            var btn37 = document.getElementById("myTD37");
 
             // Get the <span> element that closes the modal
             var span1 = document.getElementById("close1");
@@ -564,6 +580,7 @@
             var span18 = document.getElementById("close18");
             var span19 = document.getElementById("close19");
             var span20 = document.getElementById("close20");
+            var span21 = document.getElementById("close21");
 
 
             // When the user clicks on the button, open the modal
@@ -771,6 +788,11 @@
                 modal13.style.display = "block";
             }
 
+            // When the user clicks on <span> (x), close the modal
+            span21.onclick = function() {
+                modal21.style.display = "none";
+            }
+
             // When the user clicks on the button, open the modal
             btn22.onclick = function() {
                 modal13.style.display = "block";
@@ -843,6 +865,10 @@
                 modal4.style.display = "block";
             }
 
+            btn37.onclick = function() {
+                modal21.style.display = "block";
+            }
+
 
 
             window.onclick = function(event) {
@@ -905,6 +931,9 @@
                 }
                 if (event.target == modal20) {
                     modal20.style.display = "none";
+                }
+                if (event.target == modal21) {
+                    modal21.style.display = "none";
                 }
             }
         </script>
