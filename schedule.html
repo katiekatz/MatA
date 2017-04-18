@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.css">
         <link rel="stylesheet" type="text/css" href="./bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" type="text/css" href="ss/main-v2.0.css">
+        <link rel="stylesheet" type="text/css" href="ss/main-v2.1.css">
         <link rel="icon" href="./favicon.gif">
     </head>
     <body>
@@ -110,7 +110,7 @@
                             <th>Room 110</th>
                             <td id="myTD17">Improv: Trusting Your Transformation- Don Kilcoyne</td>
                             <td id="myTD18">Improv: Trusting Your Transformation- Don Kilcoyne</td>
-                            <td></td>
+                            <td id="myTD38">It's All In The Timing- Robin Irwin</td>
                             <td>LUNCH</td>
                             <td id="myTD19">Pop/Rock Vocal Performance - Bobby Cronin</td>
                             <td id="myTD20">Pop/Rock Vocal Performance - Bobby Cronin</td>
@@ -137,7 +137,7 @@
                             <th>Choir, 225</th>
                             <td id="myTD29">Musical Theatre Audition Coaching- David Hugo</td>
                             <td id="myTD30">Musical Theatre Audition Coaching- David Hugo</td>
-                            <td id="myTD31">Musical Theatre Audition Coaching- David Hugo</td>
+                            <td id="myTD31" class="active">Musical Theatre Audition Coaching- David Hugo (full)</td>
                             <td>LUNCH</td>
                             <td id="myTD32">Musical Theatre Coaching- Jeff Blumenkrantz</td>
                             <td id="myTD33">Musical Theatre Coaching- Jeff Blumenkrantz</td>
@@ -558,6 +558,8 @@
             var btn35 = document.getElementById("myTD35");
             var btn36 = document.getElementById("myTD36");
             var btn37 = document.getElementById("myTD37");
+            var btn38 = document.getElementById("myTD38");
+
 
             // Get the <span> element that closes the modal
             var span1 = document.getElementById("close1");
@@ -866,6 +868,10 @@
             }
 
             btn37.onclick = function() {
+                modal21.style.display = "block";
+            }
+
+            btn38.onclick = function() {
                 modal21.style.display = "block";
             }
 

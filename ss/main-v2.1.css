@@ -546,5 +546,7 @@ h5 a:hover {
     opacity: 0; }
   100% {
     opacity: 0; } }
+td.active {
+  background: #aaaaaa !important; }
 
-/*# sourceMappingURL=main-v2.0.css.map */
+/*# sourceMappingURL=main-v2.1.css.map */
