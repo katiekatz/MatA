@@ -486,6 +486,7 @@ h5 a:hover {
   height: 100%;
   position: fixed;
   opacity: 0.4;
+  z-index: 0;
   background: url('../candidSelfie.JPG') no-repeat center center fixed !important;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
@@ -510,7 +511,7 @@ h5 a:hover {
   }
 
   .sidebar {
-    height: 100%;
+    height: 95%;
     padding: 0;
     position: fixed;
     background-color: $backgroundcolor;

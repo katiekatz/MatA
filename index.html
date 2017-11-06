@@ -24,14 +24,13 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">More Information Coming Soon!</a></li>
-                        <!--<li><a href="./staff.html">Staff</a></li>-->
-                        <!--<li><a href="./classes.html">Classes</a></li>-->
-                        <!--<li><a href="./schedule.html">Schedule</a></li>-->
-                        <!--<li><a href="./headshots.html">Headshots</a></li>-->
-                        <!--<li><a href="./about.html">About</a></li>-->
-                        <!--<li><a href="./contact.html">Contact</a></li>-->
-                        <!--<li><a class="btn-a" target="_blank" href="http://www.brownpapertickets.com/event/2861753"><button type="button" class="btn btn-default navbar-btn">Register!</button></a></li>-->
+                        <li><a href="./staff.html">Staff</a></li>
+                        <li><a href="./classes.html">Classes</a></li>
+                        <li><a href="./schedule.html">Schedule</a></li>
+                        <li><a href="./headshots.html">Headshots</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a class="btn-a" target="_blank" href="https://www.eventbrite.com/e/masterclasses-at-the-academies-registration-38584958650?ref=ebtnebregn"><button style="background: url(https://www.eventbrite.com/custombutton?eid=38584958650); background-size: 100% 100%; padding: 15px 50px;" type="button" class="btn btn-default navbar-btn"></button></a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +62,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <h3 class="title-text col-xs-6" id="leftie">9am-3pm</h3>
+                                <h3 class="title-text col-xs-6" id="leftie">9am-4pm</h3>
                                 <h3 class="title-text col-xs-6" id="rightie">Ages 13-18</h3>
                             </div>
                         </div>
@@ -93,6 +92,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <div style="width:100%; text-align:left;"><iframe id="regiframe" src="https://www.eventbrite.com/tickets-external?eid=38584958650&ref=etckt" frameborder="0" height="785" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
 
                 </main>
 
@@ -147,6 +148,8 @@
                         </div>
                     </div>
 
+                    <div style="width:100%; text-align:left;"><iframe id="regiframe" src="https://www.eventbrite.com/tickets-external?eid=38584958650&ref=etckt" frameborder="0" height="785" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a></div></div>
+
                 </main>
 
                 <div class="hidden-xs col-sm-3 col-sm-offset-9 sidebar sidebar-right">
@@ -187,6 +190,8 @@
         <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
         <script>
             $(window).resize(function(){
+                var $windowHeight = $(window).height() - 100;
+                $('#regiframe').height($windowHeight);
                 var $width = $(window).width();
                 if(($width > 475 && $width < 558)){
                     $('#leftie, #rightie').removeClass('col-xs-6');
