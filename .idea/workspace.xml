@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e3eb70-b6c2-49f8-b421-240332cd6c73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/sabrinaSam/hs2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/chetWalker.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/debraSperling.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/sabrinaSam/hs1.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/headshots/sabrinaSam/hs1.JPG" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.html" afterPath="$PROJECT_DIR$/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/headshots.html" afterPath="$PROJECT_DIR$/headshots.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.html" afterPath="$PROJECT_DIR$/staff.html" />
     </list>
     <ignored path="MatA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +34,8 @@
       <file leaf-file-name="staff.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/staff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="518">
+              <caret line="3354" column="27" selection-start-line="3354" selection-start-column="25" selection-end-line="3354" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -103,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classes.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="classes.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/classes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="365" selection-start-line="33" selection-start-column="365" selection-end-line="33" selection-end-column="365" />
+            <state relative-caret-position="270">
+              <caret line="52" column="234" selection-start-line="52" selection-start-column="234" selection-end-line="52" selection-end-column="234" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -115,11 +121,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="headshots.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="headshots.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/headshots.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="765">
+              <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -136,14 +142,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ss/main.scss" />
-        <option value="$PROJECT_DIR$/classes.html" />
         <option value="$PROJECT_DIR$/schedule.html" />
         <option value="$PROJECT_DIR$/ss/main-v2.1.scss" />
-        <option value="$PROJECT_DIR$/staff.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/headshots.html" />
+        <option value="$PROJECT_DIR$/staff.html" />
+        <option value="$PROJECT_DIR$/classes.html" />
       </list>
     </option>
   </component>
@@ -158,7 +164,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
+    <option name="x" value="13" />
     <option name="y" value="22" />
     <option name="width" value="1411" />
     <option name="height" value="857" />
@@ -188,7 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -235,27 +241,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatA" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="headshots" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sabrinaSam" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,6 +254,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/headshots" />
+      <recent name="$PROJECT_DIR$/headshots/sabrinaSam" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/headshots/sabrinaSam" />
     </key>
   </component>
@@ -329,7 +321,9 @@
       <workItem from="1507925064876" duration="321000" />
       <workItem from="1509909110306" duration="10663000" />
       <workItem from="1509979199884" duration="303000" />
-      <workItem from="1510011883063" duration="217000" />
+      <workItem from="1510011883063" duration="417000" />
+      <workItem from="1510452194651" duration="591000" />
+      <workItem from="1510543756924" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="form updated">
       <created>1486151306125</created>
@@ -443,14 +437,21 @@
       <option name="project" value="LOCAL" />
       <updated>1510012041178</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pictures pictures everywhere">
+      <created>1510012103296</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1510012103296</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13348000" />
+    <option name="totallyTimeSpent" value="15395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="22" width="1411" height="857" extended-state="0" />
+    <frame x="13" y="22" width="1411" height="857" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -879,16 +880,6 @@
     <entry file="file://$PROJECT_DIR$/defaultBackground.png" />
     <entry file="file://$PROJECT_DIR$/background2.jpeg" />
     <entry file="file://$PROJECT_DIR$/ss/main.scss" />
-    <entry file="file://$PROJECT_DIR$/classes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="365" selection-start-line="33" selection-start-column="365" selection-end-line="33" selection-end-column="365" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -896,16 +887,6 @@
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1509912804000" expanded="false" signature="56493:56506" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/staff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -962,8 +943,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/headshots.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="765">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="3354" column="27" selection-start-line="3354" selection-start-column="25" selection-end-line="3354" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="52" column="234" selection-start-line="52" selection-start-column="234" selection-end-line="52" selection-end-column="234" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
