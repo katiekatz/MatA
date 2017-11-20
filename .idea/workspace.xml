@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30e3eb70-b6c2-49f8-b421-240332cd6c73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.html" afterPath="$PROJECT_DIR$/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule.html" afterPath="$PROJECT_DIR$/schedule.html" />
     </list>
     <ignored path="MatA.iws" />
@@ -93,8 +94,8 @@
       <file leaf-file-name="schedule.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#row#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,8 +107,8 @@
       <file leaf-file-name="classes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="52" column="216" selection-start-line="52" selection-start-column="216" selection-end-line="52" selection-end-column="216" />
+            <state relative-caret-position="405">
+              <caret line="107" column="363" selection-start-line="107" selection-start-column="363" selection-end-line="107" selection-end-column="363" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -306,7 +307,7 @@
       <workItem from="1510543756924" duration="1294000" />
       <workItem from="1510576623252" duration="540000" />
       <workItem from="1510972628672" duration="99000" />
-      <workItem from="1511147536443" duration="3640000" />
+      <workItem from="1511147536443" duration="4726000" />
     </task>
     <task id="LOCAL-00001" summary="form updated">
       <created>1486151306125</created>
@@ -462,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511151041995</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="i need to sleep">
+      <created>1511183950131</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1511183950131</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19712000" />
+    <option name="totallyTimeSpent" value="20798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="22" width="1411" height="857" extended-state="0" />
@@ -516,7 +524,8 @@
     <MESSAGE value="haha i love being given specifications after i code the whole thing" />
     <MESSAGE value="date changed bc we're screwed" />
     <MESSAGE value="i need seven coffees and a red bull" />
-    <option name="LAST_COMMIT_MESSAGE" value="i need seven coffees and a red bull" />
+    <MESSAGE value="i need to sleep" />
+    <option name="LAST_COMMIT_MESSAGE" value="i need to sleep" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -974,8 +983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="52" column="216" selection-start-line="52" selection-start-column="216" selection-end-line="52" selection-end-column="216" />
+        <state relative-caret-position="405">
+          <caret line="107" column="363" selection-start-line="107" selection-start-column="363" selection-end-line="107" selection-end-column="363" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -984,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        <state relative-caret-position="345">
+          <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#row#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
