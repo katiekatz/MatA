@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e3eb70-b6c2-49f8-b421-240332cd6c73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/adamMilano.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/emilyLowinger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/janeKeitel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/jimWeitzer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/jonProvan.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/rebeccaSonia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/ryanPifher.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/tatianaBaccari.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indexImg/teachers/teach1.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indexImg/teachers/teach2.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indexImg/teachers/teach3.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/indexImg/teachers/teach1.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/indexImg/teachers/teach2.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/indexImg/teachers/teach3.jpeg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.html" afterPath="$PROJECT_DIR$/staff.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.html" afterPath="$PROJECT_DIR$/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule.html" afterPath="$PROJECT_DIR$/schedule.html" />
     </list>
     <ignored path="MatA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="staff.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="staff.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/staff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="5129" column="28" selection-start-line="5129" selection-start-column="28" selection-end-line="5129" selection-end-column="28" />
+            <state relative-caret-position="506">
+              <caret line="446" column="872" selection-start-line="446" selection-start-column="48" selection-end-line="446" selection-end-column="872" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+            <state relative-caret-position="271">
+              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="156" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -101,8 +101,8 @@
       <file leaf-file-name="schedule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+            <state relative-caret-position="319">
+              <caret line="688" column="23" selection-start-line="688" selection-start-column="23" selection-end-line="688" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#row#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,8 +114,8 @@
       <file leaf-file-name="classes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="107" column="363" selection-start-line="107" selection-start-column="363" selection-end-line="107" selection-end-column="363" />
+            <state relative-caret-position="281">
+              <caret line="95" column="313" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="313" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -145,13 +145,13 @@
       <list>
         <option value="$PROJECT_DIR$/ss/main.scss" />
         <option value="$PROJECT_DIR$/ss/main-v2.1.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/headshots.html" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/staff.html" />
         <option value="$PROJECT_DIR$/classes.html" />
         <option value="$PROJECT_DIR$/schedule.html" />
-        <option value="$PROJECT_DIR$/staff.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -238,6 +238,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="indexImg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatA" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indexImg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teachers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatA" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="headshots" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -256,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/indexImg/teachers" />
       <recent name="$PROJECT_DIR$/headshots/sabrinaSam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -328,7 +361,7 @@
       <workItem from="1510543756924" duration="1294000" />
       <workItem from="1510576623252" duration="540000" />
       <workItem from="1510972628672" duration="99000" />
-      <workItem from="1511147536443" duration="9717000" />
+      <workItem from="1511147536443" duration="13859000" />
     </task>
     <task id="LOCAL-00001" summary="form updated">
       <created>1486151306125</created>
@@ -498,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511210093506</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="oh no">
+      <created>1511228809120</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1511228809120</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25789000" />
+    <option name="totallyTimeSpent" value="29931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="22" width="1411" height="857" extended-state="0" />
@@ -553,7 +593,8 @@
     <MESSAGE value="date changed bc we're screwed" />
     <MESSAGE value="i need seven coffees and a red bull" />
     <MESSAGE value="i need to sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="i need to sleep" />
+    <MESSAGE value="oh no" />
+    <option name="LAST_COMMIT_MESSAGE" value="oh no" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -939,22 +980,6 @@
     <entry file="file://$PROJECT_DIR$/defaultBackground.png" />
     <entry file="file://$PROJECT_DIR$/background2.jpeg" />
     <entry file="file://$PROJECT_DIR$/ss/main.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ss/main-v2.1.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
@@ -1001,8 +1026,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="107" column="363" selection-start-line="107" selection-start-column="363" selection-end-line="107" selection-end-column="363" />
+        <state relative-caret-position="281">
+          <caret line="95" column="313" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="313" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="446" column="872" selection-start-line="446" selection-start-column="48" selection-end-line="446" selection-end-column="872" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1011,8 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="107" column="42" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+        <state relative-caret-position="319">
+          <caret line="688" column="23" selection-start-line="688" selection-start-column="23" selection-end-line="688" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#row#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1020,12 +1055,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staff.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="5129" column="28" selection-start-line="5129" selection-start-column="28" selection-end-line="5129" selection-end-column="28" />
+        <state relative-caret-position="271">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="156" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
