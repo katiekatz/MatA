@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30e3eb70-b6c2-49f8-b421-240332cd6c73" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/headshots/perenYesilyurt.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.html" afterPath="$PROJECT_DIR$/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule.html" afterPath="$PROJECT_DIR$/schedule.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.html" afterPath="$PROJECT_DIR$/staff.html" />
     </list>
@@ -26,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="staff.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="staff.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/staff.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="1260" column="1084" selection-start-line="1260" selection-start-column="1084" selection-end-line="1260" selection-end-column="1084" />
+            <state relative-caret-position="233">
+              <caret line="1346" column="100" selection-start-line="1346" selection-start-column="100" selection-end-line="1346" selection-end-column="100" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -76,7 +78,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="2490">
               <caret line="166" column="26" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schedule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="398" column="1060" selection-start-line="398" selection-start-column="1060" selection-end-line="398" selection-end-column="1060" />
+            <state relative-caret-position="518">
+              <caret line="398" column="283" selection-start-line="398" selection-start-column="283" selection-end-line="398" selection-end-column="283" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#row#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -107,8 +109,8 @@
       <file leaf-file-name="classes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="313" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="313" />
+            <state relative-caret-position="555">
+              <caret line="51" column="698" selection-start-line="51" selection-start-column="698" selection-end-line="51" selection-end-column="698" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -141,10 +143,10 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/headshots.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/classes.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/staff.html" />
+        <option value="$PROJECT_DIR$/classes.html" />
         <option value="$PROJECT_DIR$/schedule.html" />
+        <option value="$PROJECT_DIR$/staff.html" />
       </list>
     </option>
   </component>
@@ -159,7 +161,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
+    <option name="x" value="22" />
     <option name="y" value="22" />
     <option name="width" value="1411" />
     <option name="height" value="857" />
@@ -190,7 +192,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +272,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,12 +282,13 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/indexImg/teachers" />
-      <recent name="$PROJECT_DIR$/headshots/sabrinaSam" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/headshots" />
+      <recent name="$PROJECT_DIR$/headshots/sabrinaSam" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/headshots" />
+      <recent name="$PROJECT_DIR$/indexImg/teachers" />
       <recent name="$PROJECT_DIR$/headshots/sabrinaSam" />
     </key>
   </component>
@@ -355,7 +358,8 @@
       <workItem from="1510576623252" duration="540000" />
       <workItem from="1510972628672" duration="99000" />
       <workItem from="1511147536443" duration="13922000" />
-      <workItem from="1511292030186" duration="105000" />
+      <workItem from="1511292030186" duration="128000" />
+      <workItem from="1511735619434" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="form updated">
       <created>1486151306125</created>
@@ -539,14 +543,21 @@
       <option name="project" value="LOCAL" />
       <updated>1511233391145</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="oh yes">
+      <created>1511292149680</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1511292149680</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30099000" />
+    <option name="totallyTimeSpent" value="31411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="22" width="1411" height="857" extended-state="0" />
+    <frame x="22" y="22" width="1411" height="857" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -595,7 +606,8 @@
     <MESSAGE value="i need seven coffees and a red bull" />
     <MESSAGE value="i need to sleep" />
     <MESSAGE value="oh no" />
-    <option name="LAST_COMMIT_MESSAGE" value="oh no" />
+    <MESSAGE value="oh yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="oh yes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1017,7 +1029,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
+        <state relative-caret-position="2490">
           <caret line="166" column="26" selection-start-line="166" selection-start-column="26" selection-end-line="166" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1027,16 +1039,6 @@
             <element signature="n#style#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#main#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="95" column="313" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="313" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1051,10 +1053,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/staff.html">
+    <entry file="file://$PROJECT_DIR$/classes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="1260" column="1084" selection-start-line="1260" selection-start-column="1084" selection-end-line="1260" selection-end-column="1084" />
+        <state relative-caret-position="555">
+          <caret line="51" column="698" selection-start-line="51" selection-start-column="698" selection-end-line="51" selection-end-column="698" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1063,11 +1065,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="398" column="1060" selection-start-line="398" selection-start-column="1060" selection-end-line="398" selection-end-column="1060" />
+        <state relative-caret-position="518">
+          <caret line="398" column="283" selection-start-line="398" selection-start-column="283" selection-end-line="398" selection-end-column="283" />
           <folding>
             <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#4;n#tbody#0;n#table#0;n#row#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="1346" column="100" selection-start-line="1346" selection-start-column="100" selection-end-line="1346" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
